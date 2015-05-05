@@ -25,7 +25,7 @@ $customTheme       = tpl_getConf('customTheme');
 $bootswatchTheme   = tpl_getConf('bootswatchTheme');
 $bootstrapStyles   = array();
 $fluidContainer    = tpl_getConf('fluidContainer');
-$contentClass      = (($showSidebar) ? 'col-sm-9 col-md-10' : 'container' . (($fluidContainer) ? '-fluid' : ''));
+$contentClass      = (($showSidebar) ? 'col-sm-9 col-md-9' : 'container' . (($fluidContainer) ? '-fluid' : ''));
 $showPageInfo      = tpl_getConf('showPageInfo');
 $showBadges        = tpl_getConf('showBadges');
 
